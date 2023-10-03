@@ -123,7 +123,7 @@ def datapreparation(d_df, h_df):
     hdf_preci = hdf_preci[['Day','Hour','Precipitation Probability','Cloud Covering']]
 
     #--------Shorting the columns names
-    hdf_preci.rename(columns={'Precipitation Probability': '|Precipitation', 'Cloud Covering':'|Cloud Covering'}, inplace=True)
+    hdf_preci.rename(columns={'Precipitation Probability': 'Precipitation', 'Cloud Covering':'Cloud Covering'}, inplace=True)
     
     #--------In which moments it will be cloudy?
     hdf_cloudy = h_df[ (h_df['Cloud Covering']>85)]
