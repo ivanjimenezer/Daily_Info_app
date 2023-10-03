@@ -8,7 +8,7 @@ This is the expected output of the app. It will tell me the:
 * Precipitation Probability (%) 
 * Cloud Covering (%)
 
-<img src="https://github.com/ivanjimenezer/Daily_Info_app/blob/main/output3.jpg" alt="Image Alt Text" width="480" height="960">
+<img src="https://github.com/ivanjimenezer/Daily_Info_app/blob/main/output3.jpg" alt="Image Alt Text" width="480" height="500">
 The app can accept different cities, depending on correct spelling.
 
 ## Ciudad de Mexico
