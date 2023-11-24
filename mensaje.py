@@ -6,6 +6,8 @@ import requests
 from tqdm import tqdm
 from datetime import datetime, timedelta
 
+
+# API KEY CALLED FROM UNCOMMITED .PY FILE
 API_Geo_KEY = GEO_KEY
 
 def getcoordenates(city):
